@@ -1,13 +1,12 @@
-package Chapter1.Config;
-import Chapter1.Main.Parrot;
-
-import org.springframework.context.annotation.*;
+package Chapter2.Config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 @Configuration
-@ComponentScan(basePackages = "Chapter1.Main")
+@ComponentScan(basePackages = "Chapter2.Main")
  public class ProjectConfig {
+
+ // Bean method
 /*  @Bean
   @Primary
   Parrot parrot0() {
