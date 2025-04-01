@@ -10,7 +10,5 @@ public class Main {
         System.out.println("Person's name is " + person.getName());
         System.out.println("Person's Parrot is " + person.getParrot());
 
-        Parrot parrot = context.getBean(Parrot.class);
-        System.out.println("Parrot's name is " + parrot.getName());
     }
 }
